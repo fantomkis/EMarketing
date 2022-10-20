@@ -1,44 +1,39 @@
 @charset "UTF-8";
 @font-face {
-  font-family: 'Proxima Nova';
+  font-family: "Proxima Nova";
   src: url("../fonts/Mark Simonson - Proxima Nova Bold.eot");
   src: local("☺"), url("../fonts/Mark Simonson - Proxima Nova Bold.woff") format("woff"), url("../fonts/Mark Simonson - Proxima Nova Bold.ttf") format("truetype"), url("../fonts/Mark Simonson - Proxima Nova Bold.svg") format("svg");
   font-weight: 700;
   font-style: normal;
 }
-
 @font-face {
-  font-family: 'Proxima Nova';
+  font-family: "Proxima Nova";
   src: url("../fonts/Mark Simonson - Proxima Nova Condensed Extrabold.eot");
   src: local("☺"), url("../fonts/Mark Simonson - Proxima Nova Condensed Extrabold.woff") format("woff"), url("../fonts/Mark Simonson - Proxima Nova Condensed Extrabold.ttf") format("truetype"), url("../fonts/Mark Simonson - Proxima Nova Condensed Extrabold.svg") format("svg");
   font-weight: 800;
   font-style: normal;
 }
-
 @font-face {
-  font-family: 'Proxima Nova';
+  font-family: "Proxima Nova";
   src: url("../fonts/Mark Simonson - Proxima Nova Condensed Regular.eot");
   src: local("☺"), url("../fonts/Mark Simonson - Proxima Nova Condensed Regular.woff") format("woff"), url("../fonts/Mark Simonson - Proxima Nova Condensed Regular.ttf") format("truetype"), url("../fonts/Mark Simonson - Proxima Nova Condensed Regular.svg") format("svg");
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
-  font-family: 'Proxima Nova';
+  font-family: "Proxima Nova";
   src: url("../fonts/Mark Simonson - Proxima Nova Condensed Semibold.eot");
   src: local("☺"), url("../fonts/Mark Simonson - Proxima Nova Condensed Semibold.woff") format("woff"), url("../fonts/Mark Simonson - Proxima Nova Condensed Semibold.ttf") format("truetype"), url("../fonts/Mark Simonson - Proxima Nova Condensed Semibold.svg") format("svg");
   font-weight: 600;
   font-style: normal;
 }
-
 @font-face {
-  font-family: 'Proxima Nova ';
+  font-family: "Proxima Nova ";
   src: url("../fonts/Mark Simonson - Proxima Nova Condensed Regular Italic.eot");
   src: local("☺"), url("../fonts/Mark Simonson - Proxima Nova Condensed Regular Italic.woff") format("woff"), url("../fonts/Mark Simonson - Proxima Nova Condensed Regular Italic.ttf") format("truetype"), url("../fonts/Mark Simonson - Proxima Nova Condensed Regular Italic.svg") format("svg");
   font-weight: 500;
   font-style: normal;
 }
-
 * {
   padding: 0;
   margin: 0;
@@ -72,7 +67,7 @@ aside {
 
 html,
 body {
-  font-family: 'Proxima Nova';
+  font-family: "Proxima Nova";
   font-style: normal;
   height: 100%;
   width: 100%;
@@ -137,9 +132,9 @@ h6 {
 }
 
 .header__title {
-  width: 198px;
+  width: 196px;
   height: 36px;
-  font-family: 'Proxima Nova';
+  font-family: "Proxima Nova";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -156,16 +151,16 @@ h6 {
 }
 
 .logo {
-  margin-right: 34px;
+  margin-right: 35px;
 }
 
-.heder__tel {
+.header__tel {
   height: 28px;
-  font-family: 'Proxima Nova';
+  font-family: "Proxima Nova";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 16px;
-  line-height: 170.23%;
+  line-height: 1.5;
   /* identical to box height, or 27px */
   display: flex;
   align-items: center;
@@ -175,10 +170,14 @@ h6 {
   margin-right: 45px;
 }
 
-.header__mail {
-  font-family: 'Proxima Nova';
-  font-style: normal;
+.header__tel-accent {
   font-weight: 700;
+}
+
+.header__mail {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.68;
   /* identical to box height, or 27px */
@@ -188,6 +187,10 @@ h6 {
   /* font */
   color: #161835;
   margin-right: 45px;
+}
+
+.header__mail-accent {
+  font-weight: 700;
 }
 
 .icon {
@@ -200,12 +203,13 @@ h6 {
   padding: 7px 25px;
   background: #3B8DD0;
   border-radius: 100px;
-  font-family: 'Proxima Nova';
+  font-family: "Proxima Nova";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.68;
   /* identical to box height, or 27px */
+  margin-left: auto;
   display: flex;
   align-items: center;
   text-align: center;
@@ -217,6 +221,7 @@ h6 {
   display: flex;
   padding-top: 27px;
   margin-bottom: 21px;
+  align-items: center;
 }
 
 .header__nav {
@@ -225,7 +230,7 @@ h6 {
 }
 
 .nav_link {
-  font-family: 'Proxima Nova';
+  font-family: "Proxima Nova";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -255,12 +260,17 @@ h6 {
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
-  content: '';
+  content: "";
   top: 0;
   right: 0;
 }
 
-.main {
-  position: relative;
-}
-/*# sourceMappingURL=main.css.map */
+.hero__text__accent {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 130%;
+  /* identical to box height, or 23px */
+  color: #FC0E28;
+}/*# sourceMappingURL=main.css.map */

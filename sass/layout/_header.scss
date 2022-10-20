@@ -1,5 +1,5 @@
 .header__title {
-    width: 198px;
+    width: 196px;
     height: 36px;
     font-family: 'Proxima Nova';
     font-style: normal;
@@ -20,16 +20,16 @@
 }
 
 .logo {
-    margin-right: 34px;
+    margin-right: 35px;
 }
 
-.heder__tel {
+.header__tel {
     height: 28px;
     font-family: 'Proxima Nova';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 16px;
-    line-height: 170.23%;
+    line-height: 1.5;
     /* identical to box height, or 27px */
 
     display: flex;
@@ -42,10 +42,14 @@
     margin-right: 45px;
 }
 
+.header__tel-accent {
+    font-weight: 700;
+}
+
 .header__mail {
     font-family: 'Proxima Nova';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.68;
     /* identical to box height, or 27px */
@@ -58,6 +62,10 @@
 
     color: #161835;
     margin-right: 45px;
+}
+
+.header__mail-accent {
+    font-weight: 700;
 }
 
 .icon {
@@ -76,10 +84,11 @@
     font-size: 16px;
     line-height: 1.68;
     /* identical to box height, or 27px */
-
+    margin-left: auto;
     display: flex;
     align-items: center;
     text-align: center;
+
 
     /* white */
 
@@ -90,6 +99,7 @@
     display: flex;
     padding-top: 27px;
     margin-bottom: 21px;
+    align-items: center;
 }
 
 .header__nav {
