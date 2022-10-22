@@ -95,6 +95,13 @@
     color: #FFFFFF;
 }
 
+.header__img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -2;
+}
+
 .wrap {
     display: flex;
     padding-top: 27px;
@@ -110,7 +117,7 @@
 .nav_link {
     font-family: 'Proxima Nova';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 18px;
     line-height: 1.27;
     /* or 23px */
