@@ -1,0 +1,71 @@
+ .wrap__reiews {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .reviews__title {
+     font-family: 'Proxima Nova';
+     font-style: normal;
+     font-weight: 800;
+     font-size: 35px;
+     line-height: 1.5;
+     display: flex;
+     align-items: center;
+     text-align: center;
+     color: #161835;
+     margin-bottom: 7px;
+ }
+
+ .reviews__subtitle {
+     font-family: 'Proxima Nova';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 130%;
+     /* or 23px */
+
+     text-align: center;
+
+     /* font */
+
+     color: #161835;
+
+     opacity: 0.8;
+     width: 468px;
+     margin-bottom: 324px;
+ }
+
+ .reviews__text {
+     font-family: 'Proxima Nova';
+     font-style: italic;
+     font-weight: 400;
+     font-size: 20px;
+     line-height: 150%;
+     /* or 30px */
+
+     text-align: center;
+     color: #161835;
+     opacity: 0.8;
+     width: 867px;
+     height: 87px;
+     position: relative;
+     padding: 10px 40px;
+ }
+
+ .icon-left {
+     position: absolute;
+     top: 7px;
+     left: 0;
+ }
+
+ .icon-right {
+     position: absolute;
+     bottom: -16px;
+     right: 0;
+
+ }
+
+ .reviews {
+     padding-bottom: 76px;
+ }

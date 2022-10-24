@@ -1,6 +1,47 @@
 .benefits__img {
     position: absolute;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 164%;
     z-index: -1;
+    top: 2165px;
+}
+
+.benefits__title {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 1.5;
+    text-align: center;
+    color: #161835;
+    margin-top: 202px;
+    margin-bottom: 50px;
+
+}
+
+.benefits__list {
+    display: flex;
+}
+
+.item__title {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 1.8;
+    text-align: center;
+    color: #161835;
+    width: 270px;
+}
+
+.item__title_accent {
+    font-weight: 500;
+}
+
+.benefits__icon {
+    margin: 0 90px 32px;
+}
+
+.benefits {
+    padding-bottom: 190px;
 }

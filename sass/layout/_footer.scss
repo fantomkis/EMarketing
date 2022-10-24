@@ -1,0 +1,135 @@
+.footer {
+    padding: 18px 0 29px;
+}
+
+.footer__wrap {
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.footer__logo {
+    display: flex;
+    flex-direction: column;
+    margin-right: 95px;
+}
+
+.footer__leible {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 110%;
+    /* or 18px */
+
+    display: flex;
+    align-items: center;
+
+    color: #353541;
+
+    opacity: 0.8;
+    width: 206px;
+    margin-top: 14px;
+}
+
+.footer__list {
+    margin-right: 81px;
+}
+
+.footer__item {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 170.23%;
+    /* identical to box height, or 27px */
+
+    display: flex;
+    align-items: center;
+
+    /* font */
+
+    color: #161835;
+}
+
+.footer__item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer__link {
+    display: flex;
+    flex-direction: column;
+}
+
+.link {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170.23%;
+    /* identical to box height, or 27px */
+
+    display: flex;
+    align-items: center;
+
+    /* font */
+
+    color: #161835;
+}
+
+.link:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer__tel-accent {
+    font-weight: 700;
+    margin-right: 4px;
+}
+
+.footer__mail-accent {
+    font-weight: 700;
+}
+
+.footer__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info__text {
+    width: 321px;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    /* or 17px */
+
+    display: flex;
+    align-items: center;
+
+    /* font */
+
+    color: #161835;
+}
+
+.glanitc {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    /* font */
+
+    color: #161835;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.glanitc__icon {
+    margin-right: 4px;
+}
