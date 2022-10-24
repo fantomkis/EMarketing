@@ -337,8 +337,8 @@ h6 {
   background-image: url("../../images/Group 309.png");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100vw;
-  height: 967px;
+  background-size: 2599px 933px;
+  padding-bottom: 80px;
 }
 
 .statistic__title {
@@ -458,4 +458,11 @@ h6 {
   line-height: 1.72;
   text-align: center;
   color: #FFFFFF;
+}
+
+.benefits__img {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
 }/*# sourceMappingURL=main.css.map */
